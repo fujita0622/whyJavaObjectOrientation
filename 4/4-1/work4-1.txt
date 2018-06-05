@@ -1,0 +1,19 @@
+work4-1 Playerクラスのソースコードをコピーして、クラス名だけ変えたMurataクラスとYamadaクラスを用意し、ObjectJanken.javaをリスト4-2のように変更してください。
+なお、この段階ではMurataクラス、Yamadaクラスのshowhandメソッドを変更する必要はありません。
+プログラムができたらコンパイル・実行してください。
+
+[リスト4-2]
+// プレイヤー1(村田さん)の生成
+Murata murata = new Murata("村田さん");
+// プレイヤー2(山田さん)の生成
+Yamada yamada = new Yamada("山田さん");
+
+// 村田さんと山田さんをプレイヤーとしてジャンケンを開始する
+saito.startJanken(murata, yamada);
+
+
+[コンパイル結果]
+Exception in thread "main" java.lang.Error: Unresolved compilation problem: 
+  型 Judge のメソッド startJanken(Murata, Murata) は引数 (Murata, Yamada) に適用できません
+
+  at lesson4.ObjectJanken.main(ObjectJanken.java:12)
