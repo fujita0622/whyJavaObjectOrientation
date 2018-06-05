@@ -1,0 +1,4 @@
+work4-2 Playerクラスを継承して、それぞれ手の出し方の異なるMurataクラスとYamadaクラスを作成し、実行結果を確認してください。ただし、既存のプログラムで変更できるのはObjectJanken.javamのみとします。
+MurataクラスとYamadaクラスの手の出し方は以下のようにします。
+Murataクラス …必ずグーを出す
+Yamadaクラス …必ずパーを出す
