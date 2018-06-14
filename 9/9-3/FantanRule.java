@@ -53,7 +53,7 @@ public class FantanRule implements Rule {
 		Card[][] lookTable = table.getCards();
 		// 変数lookTableにスートと値を指定し、指定したカードがテーブルに置かれているか確認
 		// 指定したカードが置かれている場合
-		if(lookTable[suit][number] != null) {
+		if(lookTable[suit - 1][number - 1] != null) {
 		// 変数putCardに true を格納
 			putCard = true;
 			// 指定したカードが置れていない場合
