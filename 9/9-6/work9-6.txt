@@ -1,0 +1,7 @@
+work9-6 lesson6で作成したばば抜きプログラム(OldMaid)を、トランプゲームフレームワークを利用して作りなおしてください。
+
+新規作成クラス
+OldMaidTable.java
+OldMaidRule.java
+OldMaidPlayer.java
+OldMaid.java
