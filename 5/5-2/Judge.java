@@ -2,11 +2,12 @@
 public class Judge {
 	
 	public void startJanken(Player player1, Player player2) {
+		int numberOfGames = 3; // 試合数
 		// ジャンケンの開始を出力
 		System.out.println("【ジャンケン開始】\n");
 		
 		//ジャンケンを３回行う
-		for(int cnt = 0; cnt < 3; cnt++) {
+		for(int cnt = 0; cnt < numberOfGames; cnt++) {
 			
 			// 何回戦目か表示する
 			System.out.println("【" + (cnt+1) + "回戦目】");
