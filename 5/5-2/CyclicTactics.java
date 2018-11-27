@@ -7,7 +7,7 @@ public class CyclicTactics implements Tactics {
 	int hand = 0;
 	//readTactics 
 	public int readTactics() {
-		// 1回戦の時、または前回出した手がパーの場合
+		// 1回戦、または前回出した手がパーの場合
 		if (cnt == 0 || hand == Player.PAPER) {
 		// hand 変数に グーを格納
 			hand = Player.STONE;
@@ -15,7 +15,7 @@ public class CyclicTactics implements Tactics {
 		} else if (hand == Player.STONE) {
 		// hand 変数に チョキを格納
 			hand = Player.SCISSORS;
-		// 前回出した手がパーの場合
+		// 前回出した手がチョキの場合
 		} else if (hand == Player.SCISSORS) {
 		// hand 変数に パーを格納
 			hand = Player.PAPER;
